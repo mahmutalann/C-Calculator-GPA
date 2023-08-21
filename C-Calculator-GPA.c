@@ -12,7 +12,7 @@ int main()
 	scanf("%d",&final);
 	printf("Derece notunuzu giriniz: ");
 	scanf("%d",&derece);
-	ortalama = ( vize * 3/10 + final * 7/10);
+	ortalama = ( vize * 0.4 + final * 0.6);
 	if ( ortalama >=90 )
 	{
 		printf("Harf notunuz AA ve Ders ortalamaniz : %.2f", ortalama);
